@@ -1,0 +1,107 @@
+*{
+    color: black;
+    font-weight: bolder;
+    
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: skyblue;
+    font-weight: bolder;
+}
+input{
+    border-width: 2px;
+    width: 700px;
+    height: 40px;
+    border-radius: 15px;
+    border-color: skyblue;
+}
+textarea{
+    width: 700px;
+    height: 200px;
+    color: rgba(20, 11, 11, 0.87);
+}
+button{
+    width: 200px;
+    height: 70px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 250px;
+    border-radius: 45px;
+    color: black;
+}
+
+button:active{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.locay{
+    display: flex;
+    font-size: 20px;
+    justify-content:space-between;
+    margin-inline-start: 50px;
+    font-weight: bolder;
+}
+
+.features{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.GIR{
+    display: flex;
+}
+footer{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 5px;
+}
+.founders{
+    display: flex;
+}
+.GIS{
+    background-color: black;
+}
+.GIR{
+    justify-content: space-evenly;
+}
+.add{
+    padding-top: 6%;
+}
+.SI{
+    display: flex;
+}
+.HI{
+    display: flex;
+    
+}
+
+@media only screen and /*incase a user has an old version of browser*/ (max-width: 600px) and (orientation: portrait) {
+   .ONE{
+    width: 100%;
+   }
+}
+@media only screen and (min-width: 601px) and (orientation: landscape) {
+   .TWO{
+    width: 100%;
+   }
+}
+@media only screen and (min-width: 768px) {
+   .THREE{
+    width: 100%;
+
+   }
+}
+
